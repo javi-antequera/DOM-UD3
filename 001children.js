@@ -1,3 +1,4 @@
+"use strict"
 //¿El nodo <div> del DOM? Accedemos al div mediante querySelector, y mostramos el valor del primer hijo
 let div=document.querySelector("div").firstChild.nodeValue;
 alert (div);
