@@ -1,0 +1,6 @@
+<script>
+    let body = document.body;
+    body.innerHTML = "<!--" + body.tagName + "-->";
+    alert( body.firstChild.data ); // ¿qué hay aquí?
+</script>
+<!-- Muestra body por que body.inner = body.tagName  está comentado en la segunda linea con el innerHTML-->
