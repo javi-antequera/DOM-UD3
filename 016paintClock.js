@@ -14,7 +14,7 @@ function Start() {
 }
 
 function Stop() {
-  clearInterval(intervalId); // parael setInterval()
+  clearInterval(intervalId); // para el setInterval()
   intervalId = null; // Si vuelve a clickear start vuelve al proceso incial
 }
 
@@ -24,7 +24,7 @@ function Stop() {
       let minutos = date.getMinutes(); //minutos
       let sec = date.getSeconds(); //segundos
 
-// Si es de una cifra añado un 0 delante
+      // Si es de un digito añado un 0 delante
       if (hora < 10) 
       hora = "0"+hora;
 

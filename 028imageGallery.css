@@ -1,0 +1,7 @@
+img{
+width: 30%;
+}
+.secundarias img{
+    width: 10%;
+    cursor: pointer;
+}
